@@ -1,0 +1,22 @@
+{
+    "name": "plugindemo/module-priceplugin",
+    "description": "Magento 2 Plugin  Example Extension for override product price",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Mahendran",
+            "email": "webdevelopermahendran@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Plugindemo\\Priceplugin\\": ""
+        }
+    }
+}
